@@ -11276,3 +11276,6 @@ Stack trace:
 [17-Dec-2024 09:34:58 UTC] PHP Deprecated:  Function get_magic_quotes_runtime() is deprecated in /home/itheavic/public_html/eforms/includes/PHPMailer.php on line 1905
 [19-Dec-2024 03:49:38 UTC] PHP Deprecated:  Function get_magic_quotes_runtime() is deprecated in /home/itheavic/public_html/eforms/includes/PHPMailer.php on line 1905
 [19-Dec-2024 03:49:38 UTC] PHP Deprecated:  Function get_magic_quotes_runtime() is deprecated in /home/itheavic/public_html/eforms/includes/PHPMailer.php on line 1905
+[19-Dec-2024 23:38:51 UTC] PHP Deprecated:  Function get_magic_quotes_runtime() is deprecated in /home/itheavic/public_html/eforms/includes/PHPMailer.php on line 1905
+[19-Dec-2024 23:38:51 UTC] PHP Deprecated:  Function get_magic_quotes_runtime() is deprecated in /home/itheavic/public_html/eforms/includes/PHPMailer.php on line 1905
+[20-Dec-2024 00:33:21 UTC] PHP Deprecated:  Function get_magic_quotes_runtime() is deprecated in /home/itheavic/public_html/eforms/includes/PHPMailer.php on line 1905

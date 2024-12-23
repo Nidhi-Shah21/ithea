@@ -530,7 +530,7 @@ if(isset($link1) && $link1 == 'Yes'){
 
     $html  .='<!--[if (mso)|(IE)]><td align="center" width="320" style="background-color:#fff;width:320px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;" valign="top"><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-right: 0px; padding-left: 0px; padding-top:0px; padding-bottom:0px;"><![endif]-->';
 
-    $html  .='<div class="col num6" style="display: table-cell; vertical-align: top; max-width: 320px; min-width: 318px; width: 320px;">';
+    $html  .='<div class="col num6" style="display: table-cell; vertical-align: top;">';
 
     $html  .='<div class="col_cont" style="width:100% !important;">';
 
@@ -542,7 +542,7 @@ if(isset($link1) && $link1 == 'Yes'){
 
     $html  .='<div align="center" class="button-container" style="padding-top:10px;padding-right:10px;padding-bottom:0px;padding-left:10px;">';
 
-    $html  .= '<!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing: 0; border-collapse: collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;"><tr><td style="padding-top: 10px; padding-right: 10px; padding-bottom: 0px; padding-left: 10px" align="center"><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="'.$url1.'" style="height:36.75pt; width:200.25pt; v-text-anchor:middle;" arcsize="123%" stroke="false" fillcolor="#007abd"><w:anchorlock/><v:textbox inset="0,0,0,0"><center style="color:#ffffff; font-family:Tahoma, sans-serif; font-size:16px"><![endif]--><a href='.$url1.' style="-webkit-text-size-adjust: none; text-decoration: none; display: inline-block; color: #ffffff; background-color: #007abd; border-radius: 60px; -webkit-border-radius: 60px; -moz-border-radius: 60px; width: auto; width: auto; border-top: 1px solid #007abd; border-right: 1px solid #007abd; border-bottom: 1px solid #007abd; border-left: 1px solid #007abd; padding-top: 15px; padding-bottom: 15px; font-family: Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif; text-align: center; mso-border-alt: none; word-break: keep-all;" target="_blank"><span style="padding-left:30px;padding-right:30px;font-size:16px;display:inline-block;"><span style="font-size: 16px; margin: 0; line-height: 1.2; word-break: break-word; mso-line-height-alt: 19px;">ELIGIBILITY FORM</span></span></a>';
+    $html  .= '<!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing: 0; border-collapse: collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;"><tr><td style="padding-top: 10px; padding-right: 10px; padding-bottom: 0px; padding-left: 10px" align="center"><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="'.$url1.'" style="height:36.75pt; width:200.25pt; v-text-anchor:middle;" arcsize="123%" stroke="false" fillcolor="#007abd"><w:anchorlock/><v:textbox inset="0,0,0,0"><center style="color:#ffffff; font-family:Tahoma, sans-serif; font-size:16px"><![endif]--><a href='.$url1.' style="-webkit-text-size-adjust: none; text-decoration: none; display: inline-block; color: #ffffff; background-color: #007abd; border-radius: 60px; -webkit-border-radius: 60px; -moz-border-radius: 60px; width: auto; width: auto; border-top: 1px solid #007abd; border-right: 1px solid #007abd; border-bottom: 1px solid #007abd; border-left: 1px solid #007abd; padding-top: 15px; padding-bottom: 15px; font-family: Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif; text-align: center; mso-border-alt: none; word-break: keep-all;" target="_blank"><span style="padding-left:15px;padding-right:15px;font-size:16px;display:inline-block;"><span style="font-size: 16px; margin: 0; line-height: 1.2; word-break: break-word; mso-line-height-alt: 19px;">ELIGIBILITY FORM</span></span></a>';
 
     $html  .='<!--[if mso]></center></v:textbox></v:roundrect></td></tr></table><![endif]-->';
 
@@ -566,19 +566,19 @@ if(isset($link2) && $link2 == 'Yes'){
 
     $html  .='<!--[if (mso)|(IE)]></td><td align="center" width="320" style="background-color:#fff;width:320px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;" valign="top"><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-right: 0px; padding-left: 0px; padding-top:5px; padding-bottom:5px;"><![endif]-->';
 
-    $html  .='<div class="col num6" style="display: table-cell; vertical-align: top; max-width: 320px; min-width: 318px; width: 320px;">';
+    $html  .='<div class="col num6" style="display: table-cell; vertical-align: top;">';
 
     $html  .='<div class="col_cont" style="width:100% !important;">';
 
     $html  .='<!--[if (!mso)&(!IE)]><!-->';
 
-    $html  .='<div style="border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:5px; padding-bottom:5px; padding-right: 0px; padding-left: 0px;">';
+    $html  .='<div style="border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:0px; padding-bottom:0px; padding-right: 0px; padding-left: 0px;">';
 
     $html  .='<!--<![endif]-->';
 
     $html  .='<div align="center" class="button-container" style="padding-top:10px;padding-right:10px;padding-bottom:0px;padding-left:10px;">';
 
-    $html  .= '<!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing: 0; border-collapse: collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;"><tr><td style="padding-top: 10px; padding-right: 10px; padding-bottom: 0px; padding-left: 10px" align="center"><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="'.$url2.'" style="height:36.75pt; width:220.5pt; v-text-anchor:middle;" arcsize="123%" stroke="false" fillcolor="#007abd"><w:anchorlock/><v:textbox inset="0,0,0,0"><center style="color:#ffffff; font-family:Tahoma, sans-serif; font-size:16px"><![endif]--><a href="'.$url2.'" style="-webkit-text-size-adjust: none; text-decoration: none; display: inline-block; color: #ffffff; background-color: #007abd; border-radius: 60px; -webkit-border-radius: 60px; -moz-border-radius: 60px; width: auto; width: auto; border-top: 1px solid #007abd; border-right: 1px solid #007abd; border-bottom: 1px solid #007abd; border-left: 1px solid #007abd; padding-top: 15px; padding-bottom: 15px; font-family: Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif; text-align: center; mso-border-alt: none; word-break: keep-all;" target="_blank"><span style="padding-left:30px;padding-right:30px;font-size:16px;display:inline-block;"><span style="font-size: 16px; margin: 0; line-height: 1.2; word-break: break-word; mso-line-height-alt: 19px;">PRE-TRAINING FORM</span></span></a>';
+    $html  .= '<!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing: 0; border-collapse: collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;"><tr><td style="padding-top: 10px; padding-right: 10px; padding-bottom: 0px; padding-left: 10px" align="center"><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="'.$url2.'" style="height:36.75pt; width:220.5pt; v-text-anchor:middle;" arcsize="123%" stroke="false" fillcolor="#007abd"><w:anchorlock/><v:textbox inset="0,0,0,0"><center style="color:#ffffff; font-family:Tahoma, sans-serif; font-size:16px"><![endif]--><a href="'.$url2.'" style="-webkit-text-size-adjust: none; text-decoration: none; display: inline-block; color: #ffffff; background-color: #007abd; border-radius: 60px; -webkit-border-radius: 60px; -moz-border-radius: 60px; width: auto; width: auto; border-top: 1px solid #007abd; border-right: 1px solid #007abd; border-bottom: 1px solid #007abd; border-left: 1px solid #007abd; padding-top: 15px; padding-bottom: 15px; font-family: Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif; text-align: center; mso-border-alt: none; word-break: keep-all;" target="_blank"><span style="padding-left:15px;padding-right:15px;font-size:16px;display:inline-block;"><span style="font-size: 16px; margin: 0; line-height: 1.2; word-break: break-word; mso-line-height-alt: 19px;">PRE-TRAINING FORM</span></span></a>';
 
     $html  .='<!--[if mso]></center></v:textbox></v:roundrect></td></tr></table><![endif]-->';
 
@@ -602,19 +602,19 @@ if(isset($link3) && $link3 == 'Yes'){
 
     $html  .='<!--[if (mso)|(IE)]></td><td align="center" width="320" style="background-color:#fff;width:320px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;" valign="top"><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-right: 0px; padding-left: 0px; padding-top:5px; padding-bottom:5px;"><![endif]-->';
 
-    $html  .='<div class="col num6" style="display: table-cell; vertical-align: top; max-width: 320px; min-width: 318px; width: 320px;">';
+    $html  .='<div class="col num6" style="display: table-cell; vertical-align: top;">';
 
     $html  .='<div class="col_cont" style="width:100% !important;">';
 
     $html  .='<!--[if (!mso)&(!IE)]><!-->';
 
-    $html  .='<div style="border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:5px; padding-bottom:5px; padding-right: 0px; padding-left: 0px;">';
+    $html  .='<div style="border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:0px; padding-bottom:0px; padding-right: 0px; padding-left: 0px;">';
 
     $html  .='<!--<![endif]-->';
 
     $html  .='<div align="center" class="button-container" style="padding-top:10px;padding-right:10px;padding-bottom:0px;padding-left:10px;">';
 
-    $html  .= '<!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing: 0; border-collapse: collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;"><tr><td style="padding-top: 10px; padding-right: 10px; padding-bottom: 0px; padding-left: 10px" align="center"><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="'.$url2.'" style="height:36.75pt; width:220.5pt; v-text-anchor:middle;" arcsize="123%" stroke="false" fillcolor="#007abd"><w:anchorlock/><v:textbox inset="0,0,0,0"><center style="color:#ffffff; font-family:Tahoma, sans-serif; font-size:16px"><![endif]--><a href="javascript:void(0);" style="-webkit-text-size-adjust: none; text-decoration: none; display: inline-block; color: #ffffff; background-color: #007abd; border-radius: 60px; -webkit-border-radius: 60px; -moz-border-radius: 60px; width: auto; width: auto; border-top: 1px solid #007abd; border-right: 1px solid #007abd; border-bottom: 1px solid #007abd; border-left: 1px solid #007abd; padding-top: 15px; padding-bottom: 15px; font-family: Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif; text-align: center; mso-border-alt: none; word-break: keep-all;" target="_blank"><span style="padding-left:30px;padding-right:30px;font-size:16px;display:inline-block;"><span style="font-size: 16px; margin: 0; line-height: 1.2; word-break: break-word; mso-line-height-alt: 19px;">PRE-TRAINING TRADE FORM</span></span></a>';
+    $html  .= '<!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing: 0; border-collapse: collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;"><tr><td style="padding-top: 10px; padding-right: 10px; padding-bottom: 0px; padding-left: 10px" align="center"><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="#" style="height:36.75pt; width:220.5pt; v-text-anchor:middle;" arcsize="123%" stroke="false" fillcolor="#007abd"><w:anchorlock/><v:textbox inset="0,0,0,0"><center style="color:#ffffff; font-family:Tahoma, sans-serif; font-size:16px"><![endif]--><a href="#" style="-webkit-text-size-adjust: none; text-decoration: none; display: inline-block; color: #ffffff; background-color: #007abd; border-radius: 60px; -webkit-border-radius: 60px; -moz-border-radius: 60px; width: auto; width: auto; border-top: 1px solid #007abd; border-right: 1px solid #007abd; border-bottom: 1px solid #007abd; border-left: 1px solid #007abd; padding-top: 15px; padding-bottom: 15px; font-family: Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif; text-align: center; mso-border-alt: none; word-break: keep-all;" target="_blank"><span style="padding-left:15px;padding-right:15px;font-size:16px;display:inline-block;"><span style="font-size: 16px; margin: 0; line-height: 1.2; word-break: break-word; mso-line-height-alt: 19px;">PRE-TRAINING TRADE FORM</span></span></a>';
 
     $html  .='<!--[if mso]></center></v:textbox></v:roundrect></td></tr></table><![endif]-->';
 
@@ -646,7 +646,7 @@ $html  .='<div style="background-color:transparent;">';
 
 $html  .='<div class="block-grid" style="min-width: 320px; max-width: 640px; overflow-wrap: break-word; word-wrap: break-word; word-break: break-word; Margin: 0 auto; background-color: #ffffff;">';
 
-$html  .='<div style="border-collapse: collapse;display: table;width: 100%;background-color:#ffffff;">';
+$html  .='<div style="border-collapse: collapse;display: table;width: 100%;background-color:#fff;">';
 
 $html  .='<!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:transparent;"><tr><td align="center"><table cellpadding="0" cellspacing="0" border="0" style="width:640px"><tr class="layout-full-width" style="background-color:#ffffff"><![endif]-->';
 

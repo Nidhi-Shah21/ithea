@@ -5,6 +5,7 @@ $db = new DB;
 
 
 if (!isset($_GET['id']) && (!isset($_POST['id']) && !isset($_POST['phone_otp']))) {
+
     header("Location: expiredlink.html");
     exit;
 }
@@ -14,6 +15,7 @@ if (isset($_GET['id'])) {
     $sql = "SELECT * FROM `mail_data` WHERE `token1` LIKE '" . $id . "' OR `token2` LIKE '" . $id . "' OR `token3` LIKE '" . $id . "' order by `id` desc limit 1";
     $data = $db->getData($sql);
     if (!isset($data[0])) {
+
         header("Location: expiredlink.html");
         exit;
     } else {
@@ -58,6 +60,11 @@ if (isset($_GET['id'])) {
             $otp_sent = $data[0]->is_phone_otp_sent;
             if ($otp_sent)
                 $otp_expiry = $data[0]->phone_otp_expiry;
+        } elseif ($id == $data[0]->token3) {
+            $otp = $data[0]->phone_otp3;
+            $otp_sent = $data[0]->is_phone_otp3_sent;
+            if ($otp_sent)
+                $otp_expiry = $data[0]->phone_otp3_expiry;
         } else {
             $otp = $data[0]->phone_otp2;
             $otp_sent = $data[0]->is_phone_otp2_sent;
@@ -98,6 +105,14 @@ if (isset($_GET['id'])) {
                 ];
                 $res = $db->updateData('UPDATE `mail_data` SET `is_phone_otp2_sent` = :is_phone_otp2_sent, `phone_otp2_expiry` = :phone_otp2_expiry where `id` = :id', $params);
             }
+            if ($id == $data[0]->token3) {
+                $params = [
+                    'is_phone_otp3_sent' => 1,
+                    'id' => $data[0]->id,
+                    'phone_otp3_expiry' => $otp_expiry
+                ];
+                $res = $db->updateData('UPDATE `mail_data` SET `is_phone_otp3_sent` = :is_phone_otp3_sent, `phone_otp3_expiry` = :phone_otp3_expiry where `id` = :id', $params);
+            }
         }
     }
 }
@@ -109,13 +124,13 @@ if (isset($_POST['id']) && isset($_POST['phone_otp'])) {
     $data = $db->getData($sql);
     if (isset($data[0])) {
 
-        if (($data[0]->token1 == $id && $data[0]->phone_otp != $phone_otp) || ($data[0]->token2 == $id && $data[0]->phone_otp2 != $phone_otp)) {
+        if (($data[0]->token1 == $id && $data[0]->phone_otp != $phone_otp) || ($data[0]->token2 == $id && $data[0]->phone_otp2 != $phone_otp) || ($data[0]->token3 == $id && $data[0]->phone_otp3 != $phone_otp)) {
             $_SESSION['invalid_otp'] = true;
             header("Location: token.php?id=" . $id);
             exit;
         }
 
-        if ((time() > $data[0]->phone_otp_expiry && $data[0]->token1 == $id) || (time() > $data[0]->phone_otp2_expiry && $data[0]->token2 == $id)) {
+        if ((time() > $data[0]->phone_otp_expiry && $data[0]->token1 == $id) || (time() > $data[0]->phone_otp2_expiry && $data[0]->token2 == $id) || (time() > $data[0]->phone_otp3_expiry && $data[0]->token3 == $id)) {
             $_SESSION['otp_expired'] = true;
             $_SESSION['invalid_otp'] = true;
             header("Location: token.php?id=" . $id);
@@ -142,7 +157,6 @@ if (isset($_POST['id']) && isset($_POST['phone_otp'])) {
             header("Location: pre-training-trade-form.php");
             exit;
         }
-
         header("Location: expiredlink.html");
         exit;
     } else {
@@ -308,7 +322,7 @@ if (isset($_POST['id']) && isset($_POST['phone_otp'])) {
 <body class="">
     <section id="sift-verification">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-        <img src='https://ithea.vic.edu.au/eforms/images/logo.jpg' />
+        <img src='http://ithea.test/eforms/images/logo.jpg' />
         <div class="form-container">
             <h1>Two Step Authentication</h1>
             <p>Enter verification code sent to you mobile number:
