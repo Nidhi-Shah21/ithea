@@ -1,0 +1,20 @@
+[11-Nov-2022 17:54:39 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Media_Control' not found in /home/itheavic/public_html/wp-includes/customize/class-wp-customize-upload-control.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/itheavic/public_html/wp-includes/customize/class-wp-customize-upload-control.php on line 17
+[11-Nov-2022 17:55:06 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Section' not found in /home/itheavic/public_html/wp-includes/customize/class-wp-customize-nav-menu-section.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/itheavic/public_html/wp-includes/customize/class-wp-customize-nav-menu-section.php on line 19
+[12-Nov-2022 06:48:11 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Section' not found in /home/itheavic/public_html/wp-includes/customize/class-wp-customize-sidebar-section.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/itheavic/public_html/wp-includes/customize/class-wp-customize-sidebar-section.php on line 17
+[13-Nov-2022 20:37:50 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Section' not found in /home/itheavic/public_html/wp-includes/customize/class-wp-customize-nav-menu-section.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/itheavic/public_html/wp-includes/customize/class-wp-customize-nav-menu-section.php on line 19
+[10-Apr-2023 02:58:44 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Setting' not found in /home/itheavic/public_html/wp-includes/customize/class-wp-customize-header-image-setting.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/itheavic/public_html/wp-includes/customize/class-wp-customize-header-image-setting.php on line 19

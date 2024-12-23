@@ -1,0 +1,4 @@
+[11-Nov-2022 18:03:04 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Search_Handler' not found in /home/itheavic/public_html/wp-includes/rest-api/search/class-wp-rest-term-search-handler.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/itheavic/public_html/wp-includes/rest-api/search/class-wp-rest-term-search-handler.php on line 17

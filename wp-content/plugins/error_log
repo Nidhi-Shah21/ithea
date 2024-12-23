@@ -1,0 +1,8 @@
+[12-May-2020 16:55:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/itheavic/public_html/wp-content/plugins/hello.php:69
+Stack trace:
+#0 {main}
+  thrown in /home/itheavic/public_html/wp-content/plugins/hello.php on line 69
+[23-Nov-2020 09:16:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/itheavic/public_html/wp-content/plugins/hello.php:69
+Stack trace:
+#0 {main}
+  thrown in /home/itheavic/public_html/wp-content/plugins/hello.php on line 69

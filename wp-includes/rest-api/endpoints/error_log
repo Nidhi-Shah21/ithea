@@ -1,0 +1,76 @@
+[08-Nov-2022 12:40:40 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Controller' not found in /home/itheavic/public_html/wp-includes/rest-api/endpoints/class-wp-rest-edit-site-export-controller.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/itheavic/public_html/wp-includes/rest-api/endpoints/class-wp-rest-edit-site-export-controller.php on line 17
+[08-Nov-2022 12:57:36 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Controller' not found in /home/itheavic/public_html/wp-includes/rest-api/endpoints/class-wp-rest-url-details-controller.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/itheavic/public_html/wp-includes/rest-api/endpoints/class-wp-rest-url-details-controller.php on line 18
+[08-Nov-2022 20:00:41 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Controller' not found in /home/itheavic/public_html/wp-includes/rest-api/endpoints/class-wp-rest-global-styles-controller.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/itheavic/public_html/wp-includes/rest-api/endpoints/class-wp-rest-global-styles-controller.php on line 13
+[08-Nov-2022 20:00:46 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Controller' not found in /home/itheavic/public_html/wp-includes/rest-api/endpoints/class-wp-rest-block-pattern-categories-controller.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/itheavic/public_html/wp-includes/rest-api/endpoints/class-wp-rest-block-pattern-categories-controller.php on line 17
+[08-Nov-2022 20:31:06 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Controller' not found in /home/itheavic/public_html/wp-includes/rest-api/endpoints/class-wp-rest-menu-locations-controller.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/itheavic/public_html/wp-includes/rest-api/endpoints/class-wp-rest-menu-locations-controller.php on line 17
+[08-Nov-2022 20:31:28 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Controller' not found in /home/itheavic/public_html/wp-includes/rest-api/endpoints/class-wp-rest-block-patterns-controller.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/itheavic/public_html/wp-includes/rest-api/endpoints/class-wp-rest-block-patterns-controller.php on line 17
+[08-Nov-2022 20:31:46 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Terms_Controller' not found in /home/itheavic/public_html/wp-includes/rest-api/endpoints/class-wp-rest-menus-controller.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/itheavic/public_html/wp-includes/rest-api/endpoints/class-wp-rest-menus-controller.php on line 17
+[10-Nov-2022 11:33:00 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Controller' not found in /home/itheavic/public_html/wp-includes/rest-api/endpoints/class-wp-rest-application-passwords-controller.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/itheavic/public_html/wp-includes/rest-api/endpoints/class-wp-rest-application-passwords-controller.php on line 17
+[10-Nov-2022 12:38:45 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Controller' not found in /home/itheavic/public_html/wp-includes/rest-api/endpoints/class-wp-rest-url-details-controller.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/itheavic/public_html/wp-includes/rest-api/endpoints/class-wp-rest-url-details-controller.php on line 18
+[10-Nov-2022 13:16:34 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Controller' not found in /home/itheavic/public_html/wp-includes/rest-api/endpoints/class-wp-rest-sidebars-controller.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/itheavic/public_html/wp-includes/rest-api/endpoints/class-wp-rest-sidebars-controller.php on line 19
+[11-Nov-2022 02:58:52 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Controller' not found in /home/itheavic/public_html/wp-includes/rest-api/endpoints/class-wp-rest-block-patterns-controller.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/itheavic/public_html/wp-includes/rest-api/endpoints/class-wp-rest-block-patterns-controller.php on line 17
+[11-Nov-2022 02:59:08 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Controller' not found in /home/itheavic/public_html/wp-includes/rest-api/endpoints/class-wp-rest-menu-locations-controller.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/itheavic/public_html/wp-includes/rest-api/endpoints/class-wp-rest-menu-locations-controller.php on line 17
+[12-Nov-2022 12:53:31 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Controller' not found in /home/itheavic/public_html/wp-includes/rest-api/endpoints/class-wp-rest-url-details-controller.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/itheavic/public_html/wp-includes/rest-api/endpoints/class-wp-rest-url-details-controller.php on line 18
+[13-Nov-2022 06:14:26 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Controller' not found in /home/itheavic/public_html/wp-includes/rest-api/endpoints/class-wp-rest-menu-locations-controller.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/itheavic/public_html/wp-includes/rest-api/endpoints/class-wp-rest-menu-locations-controller.php on line 17
+[13-Nov-2022 06:14:34 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Controller' not found in /home/itheavic/public_html/wp-includes/rest-api/endpoints/class-wp-rest-block-patterns-controller.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/itheavic/public_html/wp-includes/rest-api/endpoints/class-wp-rest-block-patterns-controller.php on line 17
+[14-Nov-2022 09:29:10 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Controller' not found in /home/itheavic/public_html/wp-includes/rest-api/endpoints/class-wp-rest-application-passwords-controller.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/itheavic/public_html/wp-includes/rest-api/endpoints/class-wp-rest-application-passwords-controller.php on line 17
+[14-Nov-2022 09:29:20 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Posts_Controller' not found in /home/itheavic/public_html/wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/itheavic/public_html/wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php on line 17
+[27-Dec-2022 10:14:57 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Controller' not found in /home/itheavic/public_html/wp-includes/rest-api/endpoints/class-wp-rest-url-details-controller.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/itheavic/public_html/wp-includes/rest-api/endpoints/class-wp-rest-url-details-controller.php on line 18
+[02-Jun-2023 10:00:15 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Controller' not found in /home/itheavic/public_html/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/itheavic/public_html/wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php on line 17

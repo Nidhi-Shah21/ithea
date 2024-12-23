@@ -1,0 +1,12 @@
+[11-Nov-2022 02:20:17 UTC] PHP Fatal error:  Uncaught Error: Class 'ParagonIE_Sodium_Core_Curve25519_Ge_P2' not found in /home/itheavic/public_html/wp-includes/sodium_compat/namespaced/Core/Curve25519/Ge/P2.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/itheavic/public_html/wp-includes/sodium_compat/namespaced/Core/Curve25519/Ge/P2.php on line 4
+[13-Nov-2022 06:44:37 UTC] PHP Fatal error:  Uncaught Error: Class 'ParagonIE_Sodium_Core_Curve25519_Ge_P2' not found in /home/itheavic/public_html/wp-includes/sodium_compat/namespaced/Core/Curve25519/Ge/P2.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/itheavic/public_html/wp-includes/sodium_compat/namespaced/Core/Curve25519/Ge/P2.php on line 4
+[14-Nov-2022 10:35:47 UTC] PHP Fatal error:  Uncaught Error: Class 'ParagonIE_Sodium_Core_Curve25519_Ge_Cached' not found in /home/itheavic/public_html/wp-includes/sodium_compat/namespaced/Core/Curve25519/Ge/Cached.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/itheavic/public_html/wp-includes/sodium_compat/namespaced/Core/Curve25519/Ge/Cached.php on line 4

@@ -1,0 +1,17 @@
+[08-Nov-2022 20:21:28 UTC] PHP Fatal error:  Uncaught Error: Class 'ParagonIE_Sodium_Core32_Util' not found in /home/itheavic/public_html/wp-includes/sodium_compat/src/Core32/SipHash.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/itheavic/public_html/wp-includes/sodium_compat/src/Core32/SipHash.php on line 12
+[11-Nov-2022 02:26:04 UTC] PHP Fatal error:  Uncaught Error: Class 'ParagonIE_Sodium_Core32_Util' not found in /home/itheavic/public_html/wp-includes/sodium_compat/src/Core32/SipHash.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/itheavic/public_html/wp-includes/sodium_compat/src/Core32/SipHash.php on line 12
+[13-Nov-2022 02:39:23 UTC] PHP Fatal error:  Uncaught Error: Class 'ParagonIE_Sodium_Core32_Curve25519_H' not found in /home/itheavic/public_html/wp-includes/sodium_compat/src/Core32/Curve25519.php:16
+Stack trace:
+#0 /home/itheavic/public_html/wp-includes/sodium_compat/src/Core32/Ed25519.php(7): require_once()
+#1 {main}
+  thrown in /home/itheavic/public_html/wp-includes/sodium_compat/src/Core32/Curve25519.php on line 16
+[13-Nov-2022 06:57:08 UTC] PHP Fatal error:  Uncaught Error: Class 'ParagonIE_Sodium_Core32_Util' not found in /home/itheavic/public_html/wp-includes/sodium_compat/src/Core32/SipHash.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/itheavic/public_html/wp-includes/sodium_compat/src/Core32/SipHash.php on line 12

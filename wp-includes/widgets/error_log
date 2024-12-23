@@ -1,0 +1,64 @@
+[19-Nov-2022 04:34:52 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home/itheavic/public_html/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/itheavic/public_html/wp-includes/widgets/class-wp-widget-block.php on line 17
+[19-Nov-2022 21:47:58 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home/itheavic/public_html/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/itheavic/public_html/wp-includes/widgets/class-wp-widget-block.php on line 17
+[20-Nov-2022 02:53:18 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home/itheavic/public_html/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/itheavic/public_html/wp-includes/widgets/class-wp-widget-block.php on line 17
+[20-Nov-2022 05:38:38 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home/itheavic/public_html/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/itheavic/public_html/wp-includes/widgets/class-wp-widget-block.php on line 17
+[30-Nov-2022 19:45:28 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home/itheavic/public_html/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/itheavic/public_html/wp-includes/widgets/class-wp-widget-block.php on line 17
+[02-Dec-2022 13:58:11 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home/itheavic/public_html/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/itheavic/public_html/wp-includes/widgets/class-wp-widget-block.php on line 17
+[06-Dec-2022 16:36:50 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home/itheavic/public_html/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/itheavic/public_html/wp-includes/widgets/class-wp-widget-block.php on line 17
+[16-Jan-2023 21:07:47 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home/itheavic/public_html/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/itheavic/public_html/wp-includes/widgets/class-wp-widget-block.php on line 17
+[22-Jan-2023 00:15:51 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home/itheavic/public_html/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/itheavic/public_html/wp-includes/widgets/class-wp-widget-block.php on line 17
+[22-Jan-2023 09:22:34 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home/itheavic/public_html/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/itheavic/public_html/wp-includes/widgets/class-wp-widget-block.php on line 17
+[22-Jan-2023 12:55:43 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home/itheavic/public_html/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/itheavic/public_html/wp-includes/widgets/class-wp-widget-block.php on line 17
+[22-Jan-2023 13:52:38 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home/itheavic/public_html/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/itheavic/public_html/wp-includes/widgets/class-wp-widget-block.php on line 17
+[22-Jan-2023 13:53:32 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home/itheavic/public_html/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/itheavic/public_html/wp-includes/widgets/class-wp-widget-block.php on line 17
+[23-Jan-2023 02:02:34 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home/itheavic/public_html/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/itheavic/public_html/wp-includes/widgets/class-wp-widget-block.php on line 17
+[23-Jan-2023 12:00:12 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home/itheavic/public_html/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/itheavic/public_html/wp-includes/widgets/class-wp-widget-block.php on line 17
+[21-Feb-2023 01:53:09 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home/itheavic/public_html/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/itheavic/public_html/wp-includes/widgets/class-wp-widget-block.php on line 17

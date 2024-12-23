@@ -1,0 +1,8 @@
+[11-Nov-2022 02:50:19 UTC] PHP Fatal error:  Uncaught Error: Class 'ParagonIE_Sodium_Core_Util' not found in /home/itheavic/public_html/wp-includes/sodium_compat/src/Core/ChaCha20/Ctx.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/itheavic/public_html/wp-includes/sodium_compat/src/Core/ChaCha20/Ctx.php on line 10
+[13-Nov-2022 07:34:39 UTC] PHP Fatal error:  Uncaught Error: Class 'ParagonIE_Sodium_Core_Util' not found in /home/itheavic/public_html/wp-includes/sodium_compat/src/Core/ChaCha20/Ctx.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/itheavic/public_html/wp-includes/sodium_compat/src/Core/ChaCha20/Ctx.php on line 10
